@@ -1,10 +1,11 @@
-📰ZnB News App
+📰 Project 2 — ZnB News App
 
-A real-time news aggregator that fetches and displays live news articles from a REST API — built as a first independent JavaScript application.
+> A real-time news aggregator that fetches and displays live news articles from a REST API — built as a first independent JavaScript application.
 
-GitHub: github.com/Zees1122/MY-FIRST-APP-News-App-
+**GitHub:** [github.com/Zees1122/MY-FIRST-APP-News-App-](https://github.com/Zees1122/MY-FIRST-APP-News-App-)
 
-How It Works
+## How It Works
+```
 User opens app
       │
       ▼
@@ -18,12 +19,15 @@ DOM manipulation → Articles rendered on page
       │
       ▼
 User sees live news, no page refresh needed
-Tech Stack
-JavaScript (Vanilla) — async API calls, DOM manipulation
-REST API — NewsAPI.org for live article data
-HTML5 / CSS3 — clean card-based UI
-Key JavaScript Concepts Applied
-javascript
+```
+
+## Tech Stack
+- **JavaScript (Vanilla)** — async API calls, DOM manipulation
+- **REST API** — NewsAPI.org for live article data
+- **HTML5 / CSS3** — clean card-based UI
+
+## Key JavaScript Concepts Applied
+```javascript
 // Async data fetching
 fetch(`https://newsapi.org/v2/top-headlines?apiKey=${API_KEY}`)
   .then(response => response.json())
@@ -37,16 +41,31 @@ function renderArticles(articles) {
     container.appendChild(card);
   });
 }
-Getting Started
-bash
+```
+
+## Getting Started
+```bash
 git clone https://github.com/Zees1122/MY-FIRST-APP-News-App-.git
 # Add your free API key from newsapi.org to the config
 # Open index.html in browser
+```
 
-Note: Get a free API key at newsapi.org
+> **Note:** Get a free API key at [newsapi.org](https://newsapi.org)
 
-What I Learned
-Making asynchronous HTTP requests using fetch() and handling Promises
-Parsing and rendering JSON data dynamically without page reload
-Building a complete, user-facing application independently
-Handling API keys, error states, and loading indicators
+## What I Learned
+- Making asynchronous HTTP requests using `fetch()` and handling Promises
+- Parsing and rendering JSON data dynamically without page reload
+- Building a complete, user-facing application independently
+- Handling API keys, error states, and loading indicators
+
+---
+---
+
+## 👨‍💻 Developer
+
+**Syed Zeeshan Hussain Shah**  
+Final Year BSCS Student — University of Management and Technology (UMT), Lahore
+
+📧 syedzesshan2313@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/syedzeeshanhussainshah/)  
+🐙 [GitHub](https://github.com/Zees1122)
